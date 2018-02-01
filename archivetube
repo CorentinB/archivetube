@@ -3,6 +3,7 @@
 url=$1
 
 echo "Starting archiving!"
+
 youtube-dl $url \
 --download-archive downloaded.txt \
 -o "%(uploader)s/%(upload_date)s - %(title)s/%(uploader)s - %(title)s - %(upload_date)s %(id)s.%(ext)s" \
@@ -10,5 +11,7 @@ youtube-dl $url \
 --write-thumbnail \
 --write-description \
 --write-info-json \
---write-annotations
+--write-annotations \
+--all-subs
+
 echo "Archiving done!"
