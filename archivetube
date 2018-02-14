@@ -7,7 +7,7 @@ echo "Starting archiving!"
 youtube-dl $url \
 --download-archive downloaded.txt \
 -o "%(uploader)s/%(upload_date)s - %(title)s/%(uploader)s - %(title)s - %(upload_date)s %(id)s.%(ext)s" \
--f best \
+-f bestvideo+bestaudio \
 --write-thumbnail \
 --write-description \
 --write-info-json \
