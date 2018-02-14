@@ -8,9 +8,10 @@
 
 # Installation
 
-- wget "https://raw.githubusercontent.com/CorentinB/archivetube/master/archivetube"
-- chmod +x archivetube
+```wget "https://raw.githubusercontent.com/CorentinB/archivetube/master/archivetube"```
+
+```chmod +x archivetube```
 
 # Usage
 
-- ./archivetube CHANNEL/PLAYLIST_URL
+```./archivetube CHANNEL/PLAYLIST_URL```
